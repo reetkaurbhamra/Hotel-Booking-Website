@@ -5,11 +5,15 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%@page import= "com.mycompany.lab1exc3.hotels" %>
+<%@page import= "business.hotels" %>
 <%@page import= "java.util.ArrayList"%>
-<%@page import= "com.mycompany.lab1exc3.bookNew" %>
-<%@page import= "com.mycompany.lab1exc3.HotelsAvailable" %>
-<%@page import= "com.mycompany.lab1exc3.hotels" %>
+<%@page import= "business.bookNew" %>
+<%@page import= "business.Login" %>
+<%@page import= "business.HotelsAvailable" %>
+<%@page import= "helper.hotels" %>
+<%@page import= "persistence.hotelsCRUD"%>
+<%@page import= "persistence.bookingsCRUD"%>
+
 <!DOCTYPE html>
 <html>
     <head>

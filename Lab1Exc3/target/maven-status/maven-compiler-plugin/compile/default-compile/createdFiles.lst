@@ -1,0 +1,13 @@
+business/book.class
+helper/hotels.class
+business/bookNew.class
+business/HotelsAvailable.class
+helper/UserInfo.class
+persistence/usersCRUD.class
+persistence/ratingsCRUD.class
+business/Login.class
+business/cancel.class
+helper/Bookings.class
+business/confirmBooking.class
+persistence/hotelsCRUD.class
+persistence/bookingsCRUD.class

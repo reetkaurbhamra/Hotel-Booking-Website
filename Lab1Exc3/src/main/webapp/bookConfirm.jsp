@@ -53,7 +53,7 @@
         
         
         <BR>
-        <h1>Booking ${hotel2Book}</h1>
+        <h1>Booking ${session.getAttribute(hotel2Book)}</h1>
                 <BR>
         <form action="confirmBooking">
         <table align = "center">
