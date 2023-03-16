@@ -7,7 +7,11 @@
 <%@page language="java" contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import= "java.text.SimpleDateFormat" %>
 <%@page import= "java.util.ArrayList" %>
-<%@page import= "com.mycompany.lab1exc3.Bookings" %>
+<%@page import= "helper.Bookings" %>
+<%@page import= "persistence.bookingsCRUD" %>
+<%@page import= "business.Login" %>
+<%@page import= "helper.Hotels" %>
+
 <!DOCTYPE html>
 <html>
     <head>

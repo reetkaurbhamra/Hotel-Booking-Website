@@ -5,11 +5,14 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%@page import= "com.mycompany.lab1exc3.hotels" %>
 <%@page import= "java.util.ArrayList"%>
-<%@page import= "com.mycompany.lab1exc3.bookNew" %>
-<%@page import= "com.mycompany.lab1exc3.HotelsAvailable" %>
-<%@page import= "com.mycompany.lab1exc3.hotels" %>
+<%@page import= "business.bookNew" %>
+<%@page import= "business.Login" %>
+<%@page import= "business.HotelsAvailable" %>
+<%@page import= "helper.Hotels" %>
+<%@page import= "persistence.hotelsCRUD"%>
+<%@page import= "persistence.bookingsCRUD"%>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -74,7 +77,7 @@
     
         <BR>
         <% 
-            ArrayList<hotels> hotelsAvailable = (ArrayList)request.getAttribute("availableHotels");
+            ArrayList<Hotels> hotelsAvailable = (ArrayList)request.getAttribute("availableHotels");
         %>
         <BR>
         
@@ -82,7 +85,7 @@
         <table cellpadding="3">
         <% 
             int i=0;
-            for (hotels hotel: hotelsAvailable){ 
+            for (Hotels hotel: hotelsAvailable){ 
                 String hotelName = hotel.getHotelName();
         %>
         <tr>
