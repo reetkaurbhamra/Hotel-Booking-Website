@@ -1,0 +1,7 @@
+/home/student/NetBeansProjects/searchHotels/src/main/java/com/mycompany/search/endpoint/SearchResource.java
+/home/student/NetBeansProjects/searchHotels/src/main/java/com/mycompany/search/business/SearchBusiness.java
+/home/student/NetBeansProjects/searchHotels/src/main/java/com/mycompany/search/helper/Hotel.java
+/home/student/NetBeansProjects/searchHotels/src/main/java/com/mycompany/search/helper/Room.java
+/home/student/NetBeansProjects/searchHotels/src/main/java/com/mycompany/search/persistence/Hotel_CRUD.java
+/home/student/NetBeansProjects/searchHotels/src/main/java/com/mycompany/search/endpoint/ApplicationConfig.java
+/home/student/NetBeansProjects/searchHotels/src/main/java/com/mycompany/search/helper/HotelsXML.java

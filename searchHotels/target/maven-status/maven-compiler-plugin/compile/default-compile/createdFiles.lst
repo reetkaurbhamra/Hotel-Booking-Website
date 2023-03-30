@@ -1,0 +1,7 @@
+com/mycompany/search/business/SearchBusiness.class
+com/mycompany/search/endpoint/SearchResource.class
+com/mycompany/search/endpoint/ApplicationConfig.class
+com/mycompany/search/persistence/Hotel_CRUD.class
+com/mycompany/search/helper/HotelsXML.class
+com/mycompany/search/helper/Room.class
+com/mycompany/search/helper/Hotel.class
